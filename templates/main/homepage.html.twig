@@ -3,5 +3,29 @@
 {% block title %}Hello MainController!{% endblock %}
 
 {% block body %}
-<h1>TEST</h1>
+<h1>Color palette generator</h1>
+<wrapper class="first-wrapper">
+    <div class="card">
+        <div class="card-color blue"></div>
+        <p>#1be7ff</p>
+    </div>
+    <div class="card">
+        <div class="card-color green"></div>
+        <p>#6eeb83</p>
+    </div>
+    <div class="card">
+        <div class="card-color yellow"></div>
+        <p>#e4ff1a</p>
+    </div>
+    <div class="card">
+        <div class="card-color orange"></div>
+        <p>#ffb800</p>
+    </div>
+    <div class="card">
+        <div class="card-color red"></div>
+        <p>#ff5714</p>
+    </div>
+</wrapper>
+<a id="btn-color" href="#">Generate palette</a>
+<p class="space-info">Or just press the "Spacebar" to generate new palette</p>
 {% endblock %}

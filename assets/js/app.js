@@ -12,3 +12,4 @@ import '../styles/app.scss';
 import '../js/bootstrap';
 
 // my Js scripts
+import '../scripts/script-color-gen.js';
